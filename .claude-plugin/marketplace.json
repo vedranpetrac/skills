@@ -1,0 +1,32 @@
+{
+  "name": "petrach",
+  "owner": {
+    "name": "Vedran Petrač"
+  },
+  "metadata": {
+    "description": "Skills I use with AI coding agents, from petrach.dev/toolbox",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "pr-audit",
+      "description": "Review a pull request against the laws of code, plus security, tests and accessibility, and write a ranked report with a verdict.",
+      "version": "1.0.0",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/pr-audit"
+      ]
+    },
+    {
+      "name": "youtube-shorts",
+      "description": "Write a YouTube Short script (15 to 60 seconds): three hooks, timed beats, a looping end, title and description.",
+      "version": "1.0.0",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/youtube-shorts"
+      ]
+    }
+  ]
+}
